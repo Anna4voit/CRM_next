@@ -13,6 +13,8 @@ export type CompanyFieldValues = {
   category: string;
   date: string;
   description: string;
+  placeholder: string;
+  type: string;
 };
 
 const initialValues: CompanyFieldValues = {
@@ -22,6 +24,8 @@ const initialValues: CompanyFieldValues = {
   category: '',
   date: '',
   description: '',
+  placeholder: '',
+  type: '',
 };
 
 export interface CompanyFormProps {
