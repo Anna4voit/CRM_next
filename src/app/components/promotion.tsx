@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-
 import { Promotion } from '@/app/lib/api';
 
 export interface PromotionProps {
